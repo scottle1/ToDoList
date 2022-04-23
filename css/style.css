@@ -1,0 +1,106 @@
+body{
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 50px;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  transition: .5s;
+  color: rgba(71, 242, 208, 0.708);
+}
+input{
+  color: rgba(91, 244, 177, 0.773);
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 30px;
+  width: 35vh;
+  height: 5vh;
+  border: none;
+  background: transparent;
+}
+input:focus {outline:none;}
+input::placeholder{
+  color: rgba(71, 242, 208, 0.708);
+  font-size: 4vh;
+}
+#input-submit{
+  font-size: 3vh;
+  text-align: center;
+  width: 10vh;
+  height: 4vh;
+}
+.watch{
+  width: 50vh;
+  font-size: 15vh;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 8vh;
+}
+#login-container{
+  text-align: center;
+  padding: 10vh;
+}
+#login-form{
+  display: flex;
+  align-items: center;
+  width: 50vh;
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+}
+#greeting{
+  font-size: 10vh;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+.hidden {
+  display: none;
+}
+.todo-container{
+  text-align: center;
+}
+
+#todo-input{
+  width: 45vh;
+}
+
+#todo-list{
+  width: 150vh;
+  height: 32vh;
+  display: flex;
+  flex-wrap:wrap;
+  align-content:flex-start;
+  align-items: center;
+  margin: auto;
+  color: rgba(71, 242, 208, 0.763);
+}
+li{
+  align-content: center;
+  margin: 5px;
+  text-align: center;
+  font-size: 4vh;
+}
+button{
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
+  width: auto;
+  font-size: 2vh;
+
+}
+.weather-container{
+  display: flex;
+  flex-direction:row-reverse;
+}
+#weather{
+  font-size: 3vh;
+  font-family: 'Indie Flower', cursive;
+  display: inline;
+  margin: 0 15vh;
+}
